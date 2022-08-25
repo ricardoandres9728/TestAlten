@@ -202,6 +202,6 @@ namespace TestAPI.Services
         public void Save(Reservation reservation);
         public void Update(int id, Reservation reservation);
         public void Delete(int id);
-        public IEnumerable<string> ValidateDates(DateTime startDate, DateTime endDate);
+        public IEnumerable<string> ValidateDates(DateTime startDate, DateTime endDate, int? id);
     }
 }
